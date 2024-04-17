@@ -1,9 +1,11 @@
-package com.crackit.AddressCircuitBreakerDemo.dto;
+package com.crackit.SpringRedisCacheDemo.dto;
+
+import java.io.Serializable;
 
 public record AddressDTO(Integer id,
                          String streetName,
                          String suburb,
                          String city,
                          Integer postCode,
-                         Integer employeeId) {
+                         Integer employeeId) implements Serializable {
 }

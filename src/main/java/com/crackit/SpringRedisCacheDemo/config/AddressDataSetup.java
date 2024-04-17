@@ -1,7 +1,7 @@
-package com.crackit.AddressCircuitBreakerDemo.config;
+package com.crackit.SpringRedisCacheDemo.config;
 
-import com.crackit.AddressCircuitBreakerDemo.entity.Address;
-import com.crackit.AddressCircuitBreakerDemo.repository.AddressRepository;
+import com.crackit.SpringRedisCacheDemo.entity.Address;
+import com.crackit.SpringRedisCacheDemo.repository.AddressRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Configuration;
 
@@ -22,10 +22,13 @@ public class AddressDataSetup {
                         Address.builder().id(1).city("Chennai")
                                 .postCode(600000).suburb("suburb")
                                 .streetName("Street").employeeId(1).build(),
-                        Address.builder().id(2).city("Chennai")
+                        Address.builder().id(2).city("Bangalore")
                                 .postCode(600000).suburb("suburb")
-                                .streetName("Street").employeeId(2).build()
-                        )
+                                .streetName("Street").employeeId(2).build(),
+                        Address.builder().id(3).city("Sydney")
+                                .postCode(600000).suburb("suburb")
+                                .streetName("Street").employeeId(3).build()
+                )
         );
     }
 }

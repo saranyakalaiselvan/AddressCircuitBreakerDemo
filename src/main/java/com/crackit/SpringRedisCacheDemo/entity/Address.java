@@ -1,4 +1,4 @@
-package com.crackit.AddressCircuitBreakerDemo.entity;
+package com.crackit.SpringRedisCacheDemo.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

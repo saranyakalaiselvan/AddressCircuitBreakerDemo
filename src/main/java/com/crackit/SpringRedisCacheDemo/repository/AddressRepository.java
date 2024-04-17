@@ -1,6 +1,6 @@
-package com.crackit.AddressCircuitBreakerDemo.repository;
+package com.crackit.SpringRedisCacheDemo.repository;
 
-import com.crackit.AddressCircuitBreakerDemo.entity.Address;
+import com.crackit.SpringRedisCacheDemo.entity.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
